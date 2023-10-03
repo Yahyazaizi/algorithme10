@@ -1,0 +1,25 @@
+algo ex20
+Algorithme Operations
+Variables A, B: réela
+
+operateur: caractère
+
+Début 
+  Ecrire ("Veuillez saisir la valeur de A: ")
+Lire (A) 
+  Ecrire ("Veuillez saisir la valeur de B: ") 
+Lire (B)
+ Ecrire ("Veuillez saisir l'opérateur: ")
+Lire (operateur)
+cas operateur vauti
+"+": Ecrire ( " A + B = " A + B)
+"-": Ecrire ( " A-B = ", A -B )
+"*": Ecrire (" A * B = ", A * B )
+ "/": Si B <> 0 alors
+Ecrire ( " A / B = ", A/ B)
+Sinon
+Ecrire ("La division par 0 est impossible")
+fin Si
+Sinon: Ecrire ("L'opérateur est incorrect")
+fin cas
+Fin
